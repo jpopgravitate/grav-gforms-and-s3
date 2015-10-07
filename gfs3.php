@@ -56,7 +56,7 @@ function grav_submit_to_s3( $entry, $form ) {
 	if(is_dir($file_name)){ $file_name = basename($file_name); }
 
 	// this is the full path to the file on S3
-	$filename_to_s3 = UPLOAD_PATH . $file_name;
+	$filename_to_s3 = UPLOAD_PATH . sanitize_file_name($file_name);
 
 	if ( $gfs3->putObjectFile( $full_path, BUCKET_NAME, $filename_to_s3, S3::ACL_PUBLIC_READ ) ) {
 	    return true; // upload success
