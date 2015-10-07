@@ -66,7 +66,7 @@ function grav_submit_to_s3( $entry, $form ) {
 
 }
 
-function grav_change_upload_path( $path_info, $GFORM_form_id ) {
+function grav_change_upload_path( $path_info, $form_id ) {
 
    $path_info['path'] = $_SERVER['DOCUMENT_ROOT'] . UPLOAD_PATH;
    $path_info['url'] = 'http://'. BUCKET_NAME . '/' . UPLOAD_PATH;
