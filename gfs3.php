@@ -2,8 +2,8 @@
 
 /*
 	* Plugin Name: Gravitatey Forms Uploads to S3
-    * Version: 1.0
-    * Author: Jpop @ Gravitate
+	* Version: 1.0
+	* Author: Jpop @ Gravitate
 	* Todo:
 		- Pull constants from s3 offload plugin (bucket name)
 		- Multiple uploads
