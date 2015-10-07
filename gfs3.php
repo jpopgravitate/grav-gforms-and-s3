@@ -15,7 +15,7 @@
 define( 'awsAccessKey', AWS_ACCESS_KEY_ID );  // shouldn't need to set this if s3 has already been configured
 define( 'awsSecretKey', AWS_SECRET_ACCESS_KEY ); // ditto
 
-define( 'BUCKET_NAME', 'uploads.maletis.com' ); // set this to your bucket name
+define( 'BUCKET_NAME', 'bucket.name.com' ); // set this to your bucket name
 define( 'GFORM_FORM_ID', '2' ); // set this to the ID of the form you want to hook up to s3
 define( 'GFORM_UPLOAD_FIELD_ID', '80' ); // set this to the ID of the upload field
 
